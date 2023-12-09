@@ -1,0 +1,102 @@
+/* ProductList.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url("/bg.png"); /* Ganti dengan path gambar latar belakang yang sesuai */
+
+  background-size: cover;
+  background-position: center;
+  padding: 2rem; /* Menambahkan padding agar konten tidak terlalu dekat dengan tepi */
+}
+.product-list-header h1 {
+  font-size: 3rem; /* Ubah ukuran font sesuai keinginan */
+  margin-bottom: 1rem;
+  color: rgb(236, 58, 162); /* Warna teks judul */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.product-list-header p {
+  font-size: 1.5rem; /* Ubah ukuran font sesuai keinginan */
+  color: #493030; /* Warna teks keterangan */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.button.is-success {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.is-multiline {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  padding: 1rem;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.media {
+  align-items: center;
+}
+
+.media-content {
+  flex: 1;
+}
+
+.title.is-4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-footer {
+  padding: 0.5rem;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer-item {
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.card-footer-item:hover {
+  color: #4caf50;
+  text-decoration: underline;
+}

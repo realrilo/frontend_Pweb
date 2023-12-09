@@ -1,0 +1,82 @@
+/* EditProduct.css */
+
+.columns.is-centered {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column.is-half {
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.file-label {
+  cursor: pointer;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-cta {
+  border: 1px solid #3498db;
+  color: #3498db;
+  border-radius: 4px;
+  padding: 8px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.file-cta:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.image-container {
+  margin-top: 10px;
+}
+
+.image.is-128x128 {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.button.is-success {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button.is-success:hover {
+  background-color: #27ae60;
+}
